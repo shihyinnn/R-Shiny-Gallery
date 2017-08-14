@@ -9,10 +9,9 @@ library(ggthemes)
 # source("helpers.R")
 rate <- readRDS("data/rate.rds")
 us_map = map_data('state')
-statename <- group_by(us_state_map, region) %>% 
+statename <- group_by(us_map, region) %>% 
     summarise(long = mean(long), lat = mean(lat))
 statename$region.abb <- state.abb[match(statename$region,tolower(state.name))]
-
 
 shinyServer(function(input, output) {
     
