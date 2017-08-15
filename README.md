@@ -7,10 +7,9 @@ Health Insurance Marketplace PUFs (Public Use Files) are files with health plan 
 The Shiny apps were built with the Rate PUF -- which contains *12.7 million* observations with 24 variables of Plan-level data on the application of rates, such as allowed relationships (e.g., spouse, dependents) and tobacco use.
 
 ## How to use the apps
-This app is hosted in the https://www.shinyapps.io/ web server. 
+The apps are hosted in the https://www.shinyapps.io/ web server. 
 
-This app can be accessed through any web browser using the links 
- https://shihyin-jenniferchen.shinyapps.io/health-insurance-carriers/ and  https://shihyin-jenniferchen.shinyapps.io/health-insurance-map/. 
+The apps can be accessed through any web browser using the links https://shihyin-jenniferchen.shinyapps.io/health-insurance-map/ and https://shihyin-jenniferchen.shinyapps.io/health-insurance-carriers/    
  
  It is not necessary to have R or R studio installed on your system in order to use the apps.
 
